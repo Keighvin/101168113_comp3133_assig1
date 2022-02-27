@@ -1,0 +1,24 @@
+{
+  "name": "101168113_comp3133_assig1",
+  "version": "1.0.0",
+  "description": "Keighvin Millington's (101168113) COMP 3133 Assignment 1 submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Keighvin Millington (101168113)",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "apollo-server-express": "^3.6.3",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
